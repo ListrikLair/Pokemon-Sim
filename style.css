@@ -1,0 +1,136 @@
+img{
+    max-width: 10rem;
+}
+
+#startPage{
+    background-image: url(img/background/labBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height: 98vh;
+    width: 99vw;
+}
+
+#starterChoices{
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -15rem;
+}
+
+#starter1, #starter2, #starter3{
+    cursor: pointer;
+}
+
+#labHeader{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    height: 10vh;
+    width: 25vw;
+    text-align: center;
+    margin-left: -12.5vw;
+    font-size: 300%;
+    line-height: 10vh;
+    background-color: white;
+    color: black;
+    border: solid 5px black;
+}
+
+#whichBattle{
+    display: flex;
+    background-image: url(img/background/whichBattleBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 98vh;
+    width: 99vw;
+    z-index: -1;
+}
+
+#grass{
+    background-image: url(img/extras/grass2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25rem;
+    width: 25rem;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    cursor: pointer;
+}
+
+#trainer{
+    background-image: url(img/extras/trainer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30rem;
+    width: 15rem;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    cursor: pointer;
+}
+
+.battlefield{
+    background-image: url(img/background/battlegroundBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height: 98vh;
+    width: 99vw;
+    z-index: -1;
+}
+
+.boxedPokemon{
+    width: 8rem;
+    height: 8rem;
+    border: solid 3px brown;
+}
+
+#boxedPokemon{
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(2, 8rem);
+    position: absolute;
+    left: 50%;
+    margin-left: -12rem;
+}
+
+#enemyTrainer{
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+}
+
+.enemyPokemon{
+    position: absolute;
+    right: 25%;
+    bottom: 38%;
+}
+
+.yourPokemon{
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+}
+
+.fightButton{
+    position: absolute;
+    width: 10rem;
+    top: 10%;
+    left: 50%;
+    margin-left: -5rem;
+    font-size: 200%;
+}
+
+.catchButton{
+    position: absolute;
+    width: 10rem;
+    top: 15%;
+    left: 50%;
+    margin-left: -5rem;
+    font-size: 200%;
+}
